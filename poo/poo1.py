@@ -7,5 +7,5 @@ class Persona:
         return f"{self.nombre} {self.documento}"
 
 objeto=Persona("Clara",123)
-objeto.nombre="luz"
-print(objeto.nombre)
+objeto._nombre="luz"
+print(objeto._nombre)
